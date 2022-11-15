@@ -1,0 +1,193 @@
+.navbar-container{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.header-title{
+    color: purple;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+}
+
+.mid-header{
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+    font-size: 16px;
+    margin-left: 150px;
+}
+.right-header{
+    margin-right: 50px;
+    float: right;
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    border: 1px solid purple;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.right-header:hover{
+    background-color: purple;
+    color: white;
+}
+.right-headers{
+    margin-right: 50px;
+    float: right;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.right-headers:hover{
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.home-text{
+    margin: 80px;
+}
+.home-text h1{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+}
+.home-text p{
+    font-size: 20px;
+    color: rgb(88, 87, 87);
+}
+.home-btn{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.btn{
+    margin: 50px;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+}
+.btn1{
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    border: 1px solid purple;
+    padding: 10px 20px;
+    border-radius: 10px;  
+}
+.btn1:hover{
+    background-color: purple;
+    color: white;
+}
+.home-image{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.footer-container p{
+    text-align: center;
+    color: purple;
+    font-size: 16px;
+    margin-top: 36px;
+}
+/*adding media queries to the home page*/
+@media screen and (max-width:580px){
+    .navbar-container{
+        margin-top: 20px;
+        margin-left: 3px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header-title{
+        display: none;
+    }
+    .mid-header{
+        text-decoration: none;
+        color: rgb(88, 87, 87);
+        font-size: 14px;
+        margin-left:15px;
+    }
+    .right-header{
+        margin-right: 10px;
+        margin-left: 10px;
+        float: right;
+        text-decoration: none;
+        color: purple;
+        font-size: 14px;
+        border: 1px solid purple;
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+    
+    .right-headers{
+        margin-right: 0px;
+        float: right;
+        text-decoration: none;
+        background-color: purple;
+        color: white;
+        font-size: 14px;
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .home-text h1{
+        font-size: 40px;
+    }
+    .home-text p{
+        font-size: 16px;
+    }
+    .home-btn{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .btn{
+        margin: 20px;
+        text-decoration: none;
+        background-color: purple;
+        color: white;
+        font-size: 14px;
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+    .btn1{
+        text-decoration: none;
+        color: purple;
+        font-size: 14px;
+        border: 1px solid purple;
+        padding: 10px 12px;
+        border-radius: 10px;  
+    }
+    .home-image{
+       display: none;
+    }
+    .footer-container p{
+        text-align: center;
+        color: purple;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    
+    
+}
